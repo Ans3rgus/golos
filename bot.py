@@ -13,7 +13,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Конфигурация бота
-TOKEN = "6626403577:AAFWbkBs9-IaGZiZ-lzvURZrmQNR5eyjKNc"
+TOKEN = ""
 INPUT_VOICE = "input.mp3"  # Telegram использует формат OGG для голосовых сообщений
 OUTPUT_DOCX = "output.docx"
 
@@ -97,4 +97,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
